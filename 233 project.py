@@ -355,9 +355,6 @@ if current_date.month == 11:
 if current_date.month == 12:
     month = 'December'
 
-print(f'On {month} {current_date.day}, { current_date.year}, at approximately {time}hrs. Inmate {name} DC#{DC}  was placed in Confinement pending Disciplinary Charges, A7, per Captain {OIC} for {code}. {summary}. 
-Confinement placement was deemed necessary at this time because Inmate {first_word} posed a threat to the security, safety, and orderly operations of the facility. 
-Due to Inmate {first_word} actions and behavior, no alternative housing options were appropriate. Inmate {first_word} was escorted to {location} and received a pre-confinement assessment by Nurse {nurse}.  
-Inmate {first_word} has a mental health grade of a ({psy_grade}). It was determined, at this time, that there would be no negative impact on Inmate {first_word} ’s medical or mental health by this placement. 
-Inmate {first_word} was afforded the opportunity to call and notify at least (3) approved visitors. His ID Card was deactivated by Captain {OIC} and his property was inventoried by {staff}-Dorm Staff.')
+print(f'On {month} {current_date.day}, { current_date.year}, at approximately {time}hrs. Inmate {name} DC#{DC} was placed in Confinement pending Disciplinary Charges, A7, per Captain {OIC} for {code}. {summary}. Confinement placement was deemed necessary at this time because Inmate {first_word} posed a threat to the security, safety, and orderly operations of the facility. Due to Inmate {first_word} actions and behavior, no alternative housing options were appropriate. Inmate {first_word} was escorted to {location} and received a pre-confinement assessment by Nurse {nurse}.  Inmate {first_word} has a mental health grade of a ({psy_grade}). It was determined, at this time, that there would be no negative impact on Inmate {first_word} ’s medical or mental health by this placement. Inmate {first_word} was afforded the opportunity to call and notify at least (3) approved visitors. His ID Card was deactivated by Captain {OIC} and his property was inventoried by {staff}-Dorm Staff.')
+
 
